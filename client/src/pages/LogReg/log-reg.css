@@ -1,0 +1,20 @@
+.logreg {
+  background: url('/img/backgrounds/back_log.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: relative;
+  width: 100%;
+  height: 63rem;
+}
+
+.form_1 {
+  height: 27rem;
+}
+
+.form_2 {
+  height: 38rem;
+ 
+}
+
+

@@ -1,0 +1,7 @@
+.lang_shadow_1 {
+  backdrop-filter: blur(40px);
+  box-shadow: 0px 0px 50px black;
+  width: 27rem;
+  height: 17rem;
+  align-items: center;
+}

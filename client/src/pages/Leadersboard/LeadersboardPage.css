@@ -1,0 +1,36 @@
+
+.leaders_container {
+  display: flex;
+  justify-content: center;
+  margin-top: 4vw
+}
+
+.btn-pagin {
+  display: flex;
+  justify-content: center;
+  margin: 3vw 0 1vw 0;
+}
+
+.leader-str img {
+  transition: 0.3s;
+}
+
+.leader-str img:hover {
+  scale: 1.2;
+  transition: 0.4s;
+}
+
+.leader-str:hover {
+  transition: 0.8s;
+  color: red;
+  cursor: pointer;
+}
+
+.blur-effect {
+  filter: blur(4px);
+  transition: filter 1.5s ease;
+}
+
+.stripes {
+  margin: 0 25px;
+}

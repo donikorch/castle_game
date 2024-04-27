@@ -1,0 +1,65 @@
+/* styles.css */
+
+.radio-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+img {
+  width: 25rem;
+  height: 13.5rem;
+  border-radius: 5px;
+}
+
+.selected {
+  border-radius: 5%;
+  box-shadow: 0px 0px 30px 0px #918c8c;
+  transition: 2s;
+  transform: scale(2);
+  animation: animate 6s infinite linear alternate;
+}
+
+@keyframes animate {
+  0% {
+    box-shadow: 0px 0px 70px 0px #0630eb;
+    transform: scale(1.1);
+  }
+  25% {
+    box-shadow: 0px 0px 30px 0px #e05408;
+    transform: scale(1);
+  }
+  50% {
+    box-shadow: 0px 0px 70px 0px #f70303;
+    transform: scale(1.1);
+  }
+  75% {
+    box-shadow: 0px 0px 30px 0px #9203f8;
+    transform: scale(1);
+  }
+  100% {
+    box-shadow: 0x 0px 70px 0px #04f1d6;
+    transform: scale(1.1);
+  }
+}
+
+.prof_center {
+  text-align: center;
+  font-size: 32px;
+  margin: 2rem 0 1rem 0;
+}
+
+.change-link {
+  margin-top: 1.6rem;
+}
+
+.form-update{
+    position: relative;
+}
+
+.btn-save {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

@@ -1,0 +1,29 @@
+.page-404 {
+  position: relative;
+}
+
+.btn-404 {
+  position: absolute;
+  top: 220px;
+  left: 320px;
+}
+
+.btn-404:hover {
+  color: #fff;
+  text-shadow:
+    1px 1px 2px black,
+    0 0 1em rgb(24, 24, 116),
+    0 0 0.2em rgb(3, 3, 54);
+}
+
+.page-404 h1 {
+  position: absolute;
+  top: 85px;
+  left: 110px;
+  z-index: 10;
+  color: #fff;
+  text-shadow:
+    1px 1px 2px black,
+    0 0 1em blue,
+    0 0 0.2em blue;
+}

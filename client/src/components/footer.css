@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    align-items: center;
+    height: 10px;
+    left: 0;
+    color: #FFF;
+    background: linear-gradient(to right, red, orange, yellow, lime, cyan, blue, violet);
+    background-size: 200% 100%;
+    animation: gradient 5s ease infinite;
+    
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    filter: blur(12px);
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 0%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
